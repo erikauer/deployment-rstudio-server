@@ -1,6 +1,6 @@
-# Auto Infrastructure creator
+# Deployment Rstudio Server
 
-Demo to show how easy to create infrastructure
+Deployment of RStudio Server
 
 ## Prerequisites
 
