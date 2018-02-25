@@ -1,3 +1,4 @@
+## Terraform gitignore
 #  Local .terraform directories
 **/.terraform/*
 *.tfstate
@@ -8,3 +9,13 @@
 
 # terraform plan
 *.plan
+
+## Ansible gitignore
+# Ansible tmp files
+inventory
+*.retry
+
+## Other gitignore
+# Other files
+exoscale.tfvars
+cloudstack.ini

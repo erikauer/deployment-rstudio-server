@@ -1,0 +1,7 @@
+---
+- hosts: [rserver_nodes]
+  become: true
+  become_user: root
+  become_method: sudo
+  roles:
+    - rstudio-deployment
