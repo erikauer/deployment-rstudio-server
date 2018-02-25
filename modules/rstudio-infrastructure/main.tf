@@ -1,7 +1,7 @@
-# Create CentOS as underlying infrastructure for RStudio
+# Create  Linux Ubuntu 16.04 LTS 64-bit 100GB as underlying infrastructure for RStudio Nodes
 resource "cloudstack_instance" "rstudio-nodes" {
   name             = "rstudio-node0${count.index}"
-  template         = "84e46485-02dc-44dd-8632-9dd52ddcac92"
+  template         = "922f4a28-eab8-4716-9381-6dce8b106b95"
   service_offering = "Medium"
   zone             = "at-vie-1"
   count            = 2
