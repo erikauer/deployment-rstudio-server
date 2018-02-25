@@ -1,5 +1,5 @@
 ---
-- hosts: [rserver_nodes]
+- hosts: [rstudio_nodes]
   become: true
   become_user: root
   become_method: sudo

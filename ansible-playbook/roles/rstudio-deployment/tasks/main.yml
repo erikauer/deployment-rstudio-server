@@ -1,2 +1,2 @@
 ---
-  - include_tasks: rstudio-deployment
+  - include_tasks: install-rbase.yml
